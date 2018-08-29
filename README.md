@@ -7,8 +7,6 @@ Train a deep learning model that takes in bounding box coordinates of the detect
 Input: bounding box coordinates (xmin, ymin, xmax, ymax) <br/>
 Output: distance (z)
 
-## Requirements
-
 ## Usage
 To train and test the models, execute the following from `distance-estimator` directory, unless mentioned otherwise
 
