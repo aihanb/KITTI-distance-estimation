@@ -11,7 +11,7 @@ Output: distance (z)
 To train and test the models, execute the following from `distance-estimator` directory, unless mentioned otherwise
 
 ### Training
-1. (Optional) Use `hyperopti.py` for hyperparameter optimization. Choose the hyperparameters you would like to try out. (Default model inside hyperopti trains on two gpus, change it if you want.)
+1. (Optional) Use `hyperopti.py` for hyperparameter optimization. Choose the hyperparameters you would like to try out. (Default model inside hyperopti trains on two gpus, change it if you want.) More info on hyperoptimization [here](https://github.com/maxpumperla/hyperas)
 2. You can use result of 1. and edit `train.py` accordingly. Otherwise, use `train.py` to define your own model, choose hyperparameters, and start training!
 
 ### Inference
@@ -100,7 +100,7 @@ KITTI-distance-estimation
 Use `visualizer.py` to visualize and debug your dataset. Edit `visualizer.py` as you want to visualize whatever data you want.
 
 ### Training
-1. Use `hyperopti.py` for hyperparameter optimization. Choose the hyperparameters you would like to try out.
+1. Use `hyperopti.py` for hyperparameter optimization. Choose the hyperparameters you would like to try out. More info on hyperoptimization [here](https://github.com/maxpumperla/hyperas)
 2. Use result of 1. and edit `train.py` accordingly. Use `train.py` to actually train your model
 3. Use `inference.py` to generate predictions for the test set.
 4. Use `prediction-visualizer.py` to visualize the predictions.
